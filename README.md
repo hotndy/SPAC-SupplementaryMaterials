@@ -7,5 +7,5 @@ Supplementary material repository for Robust Video Content Alignment and Compens
       - The 4 videos with names "Synthetic_fast_b***.mp4" belongs to group b.
    The 7 video files starting with "realrain_" are derain results for real rain.
       
-2. Under the SupperPixel_Matching_Evaluations foder are the results of SP units vs. rectangular patches for the Middleburry Stereo Dataset. Matching results for the SP units are with names"**sp.png", and the results for the rectangular patches are with names "**blk.png".
+2. Under the SupperPixel_Matching_Evaluations foder are the results of SP units vs. rectangular patches for the Middleburry Stereo Dataset. Matching results for the SP units are with names "**sp.png", and the results for the rectangular patches are with names "**blk.png".
    
