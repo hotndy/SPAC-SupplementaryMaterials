@@ -11,6 +11,12 @@ Supplementary material repository for Robust Video Content Alignment and Compens
       
 2. Under the SupperPixel_Matching_Evaluations foder are the results of SP units vs. rectangular patches for the Middleburry Stereo Dataset. Matching results for the SP units are with names "xxx_sp.png", and the results for the rectangular patches are with names "xxx_blk.png".
 
-3. Under the Dataset_Testing_Synthetic are the 
+3. Under the Dataset_Testing_Synthetic are the synthetic rain dataset for algorithm testing.
+   - Files with names xxx_GT are the scene ground truth.
+   - Files with names xxx_Rain are the synthesized rainy scenes with Adobe Affter Effect.
+   - Files with names xxx_spacCNN are the derain output from SPAC-CNN.
+   Please cite both Adobe After Effect, and our paper when you use this dataset.
+   [1] Adobe After Effects Software, available at www.adobe.com/AfterEffects.
+   [2] J. Chen, C.-H. Tan, J. Hou, L.-P. Chau, and H. Li, “Robust video content alignment and compensation for rain removal in a CNN framework,” IEEE Conference on Computer Vision and Pattern Recognition, 2018.
 
 4. Under the Dataset_Testing_realRain are the 
