@@ -1,2 +1,12 @@
 
 real rain datset for evaluation of derain performance
+
+
+Files with names xxx_Rain are the rainy frames.
+
+Files with names xxx_spacCNN are the derain output from SPAC-CNN.
+
+Please cite our paper when you use this dataset.
+
+
+[1] J. Chen, C.-H. Tan, J. Hou, L.-P. Chau, and H. Li, “Robust video content alignment and compensation for rain removal in a CNN framework,” IEEE Conference on Computer Vision and Pattern Recognition, 2018.
