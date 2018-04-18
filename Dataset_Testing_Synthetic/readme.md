@@ -3,8 +3,11 @@ Synthetic rain dataset for algorithm testing.
 The rain is  
 
 Files with names xxx_GT are the scene ground truth.
+
 Files with names xxx_Rain are the synthesized rainy scenes with Adobe Affter Effect.
+
 Files with names xxx_spacCNN are the derain output from SPAC-CNN.
+
 
 Please cite both Adobe After Effect, and our paper when you use this dataset.
 
