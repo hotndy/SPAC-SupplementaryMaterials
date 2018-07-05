@@ -2,7 +2,7 @@ This package contains the following:
 __derainFunction.p__: derain input rain frames  
 __derain_SPAC_CNN_run.m__: an example for derain  
 
-=================================================
+=================================================  
 derainFunction:  
   
 Input  : 4D uint8 array of size [h x w x 3 x n]
@@ -12,7 +12,7 @@ Output : 4D uint8 array of size [h x w x 3 x n], note the first and last
   
 Please ensure that **MatConvNet** is properly installed before running the code.
 For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.
-=================================================
+=================================================  
 
 __CONTACT:__  
 Chen Jie (chen.jie@ntu.edu.sg)
