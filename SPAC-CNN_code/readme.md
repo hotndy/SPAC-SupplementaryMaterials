@@ -1,6 +1,6 @@
-This package contains the following:
-derainFunction.p	: derain input rain frames
-derain_SPAC_CNN_run.m   : an example for derain
+This package contains the following:  
+derainFunction.p	: derain input rain frames  
+derain_SPAC_CNN_run.m   : an example for derain  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 derainFunction:
