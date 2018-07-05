@@ -1,32 +1,31 @@
 This package contains the following:  
-derainFunction.p	: derain input rain frames  
-derain_SPAC_CNN_run.m   : an example for derain  
+__derainFunction.p__	: derain input rain frames  
+__derain_SPAC_CNN_run.m__   : an example for derain  
 
-*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*
-derainFunction:
-
+__%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%__
+derainFunction:  
+  
 Input  : 4D uint8 array of size [h x w x 3 x n]
 	 [h w 3] is input rain frame size, and n is the numder of frames
 Output : 4D uint8 array of size [h x w x 3 x n], note the first and last 
 	 two frames are empty.
-
-Please ensure that MatConvNet is properly installed before running the code.
+  
+Please ensure that __MatConvNet__ is properly installed before running the code.
 For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.
+__%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%__
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-CONTACT:
+__CONTACT:__  
 Chen Jie (chen.jie@ntu.edu.sg)
 
-TERMS OF USE : 
+__TERMS OF USE:__   
 Any scientific work that makes use of our code should appropriately
 mention this in the text and cite our CVPR 2018 paper. 
 For commercial use of a faster executable version of our code (10Hz +), please contact Dr. Soh Ling Min (sohlm@stengg.com). 
 
-PAPER TO CITE:
-
+__PAPER TO CITE:__  
 Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li. "Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework." In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
 
-BIBTEX TO CITE:
+__BIBTEX TO CITE:__  
 @inproceedings{chen2018robust,
   title={Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework.},
   author={Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li},
