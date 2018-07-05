@@ -2,17 +2,17 @@ This package contains the following:
 __derainFunction.p__: derain input rain frames  
 __derain_SPAC_CNN_run.m__: an example for derain  
 
-=================================================  
+ 
 derainFunction:  
   
 Input  : 4D uint8 array of size [h x w x 3 x n]
-	 [h w 3] is input rain frame size, and n is the numder of frames
+	 [h x w x 3] is input rain frame size, and n is the numder of frames
 Output : 4D uint8 array of size [h x w x 3 x n], note the first and last 
 	 two frames are empty.  
   
 Please ensure that MatConvNet is properly installed before running the code.
 For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.
-=================================================  
+
 
 __CONTACT:__  
 Chen Jie (chen.jie@ntu.edu.sg)
@@ -20,7 +20,7 @@ Chen Jie (chen.jie@ntu.edu.sg)
 __TERMS OF USE:__   
 Any scientific work that makes use of our code should appropriately
 mention this in the text and cite our CVPR 2018 paper. 
-For commercial use of a faster executable version of our code (10Hz +), please contact Dr. Soh Ling Min (sohlm@stengg.com). 
+For commercial use and a faster executable version of our code (10Hz+), please contact Dr. Soh Ling Min (sohlm@stengg.com). 
 
 __PAPER TO CITE:__  
 Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li. "Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework." In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
