@@ -11,7 +11,7 @@ Output : 4D uint8 array of size [h x w x 3 x n], note the first and last
 	 two frames are empty.  
 Please ensure that _MatConvNet_ is properly installed before running the code.  
 For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.  
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 __CONTACT:__  
 Chen Jie (chen.jie@ntu.edu.sg)
