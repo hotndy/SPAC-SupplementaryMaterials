@@ -2,7 +2,7 @@ This package contains the following:
 __derainFunction.p__: derain input rain frames  
 __derain_SPAC_CNN_run.m__: an example for derain  
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
 derainFunction:  
   
 Input  : 4D uint8 array of size [h x w x 3 x n]
