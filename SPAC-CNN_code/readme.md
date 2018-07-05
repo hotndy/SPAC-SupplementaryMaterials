@@ -10,7 +10,7 @@ Input  : 4D uint8 array of size [h x w x 3 x n]
 Output : 4D uint8 array of size [h x w x 3 x n], note the first and last 
 	 two frames are empty.  
   
-Please ensure that **MatConvNet** is properly installed before running the code.
+Please ensure that MatConvNet is properly installed before running the code.
 For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.
 =================================================  
 
