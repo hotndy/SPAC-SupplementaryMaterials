@@ -5,9 +5,9 @@ __derain_SPAC_CNN_run.m__: an example for derain
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
 derainFunction:  
   
-Input  : 4D uint8 array of size [h x w x 3 x n]
+__Input__: 4D uint8 array of size [h x w x 3 x n]
 	 [h x w x 3] is input rain frame size, and n is the numder of frames  
-Output : 4D uint8 array of size [h x w x 3 x n], note the first and last 
+__Output__: 4D uint8 array of size [h x w x 3 x n], note the first and last 
 	 two frames are empty.  
   
 Please ensure that _MatConvNet_ is properly installed before running the code.  
