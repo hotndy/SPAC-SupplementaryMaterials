@@ -1,42 +1,40 @@
 This package contains the following:
-computeDepth.m : estimates depth of a LF image
-demo.m         : an example for computeDepth.m
+derainFunction.p	: derain input rain frames
+derain_SPAC_CNN_run.m   : an example for derain
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-computeDepth  :
+derainFunction:
 
-Input  : 5D double array of size [h x w x 3 x v x u]
-	 [h w 3] is spatial image size, and [v u] is angular size
-Output : depth_output, 2D double array that contains 0-1
+Input  : 4D uint8 array of size [h x w x 3 x n]
+	 [h w 3] is input rain frame size, and n is the numder of frames
+Output : 4D uint8 array of size [h x w x 3 x n], note the first and last 
+	 two frames are empty.
 
-An example usage on the Wanner dataset and on our dataset is specified in demo.m
-
-Before use, please compile the .cpp file in the mex folder.
-Precompiled files for 64 bit Mac and Windows are provided, if useful.
+Please ensure that MatConvNet is properly installed before running the code.
+For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 CONTACT:
-Ting-Chun Wang (tcwang0509@berkeley.edu)
+Chen Jie (chen.jie@ntu.edu.sg)
 
 TERMS OF USE : 
 Any scientific work that makes use of our code should appropriately
-mention this in the text and cite our ICCV 2015 paper. For commercial
-use, please contact us.
+mention this in the text and cite our CVPR 2018 paper. 
+For commercial use of a faster executable version of our code (10Hz +), please contact Dr. Soh Ling Min (sohlm@stengg.com). 
 
 PAPER TO CITE:
-Ting-Chun Wang, Alexei A. Efros, and Ravi Ramamoorthi.
-Occlusion-aware depth estimation using light-field cameras. 
-In Proceedings of International Conference on Computer Vision (ICCV), 2015.
+
+Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li. "Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework." In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
 
 BIBTEX TO CITE:
-@inproceedings{wang2015occlusion,
-  title={Occlusion-aware depth estimation using light-field cameras.},
-  author={Wang, Ting-Chun and Efros, Alexei and Ramamoorthi, Ravi},
-  booktitle={Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
-  year={2015}
+@inproceedings{chen2018robust,
+  title={Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework.},
+  author={Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
 }
 
-Copyright (c) 2015
+Copyright (c) 2018
 All rights reserved.
 Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions are met:
