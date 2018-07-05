@@ -1,6 +1,8 @@
 # SPAC-SupplementaryMaterials
 Supplementary material repository for Robust Video Content Alignment and Compensation framework for rain removal applications.
 
+0. Under the folder "SPAC-CNN_code" folder are the executable code for rain removal.
+
 1. Under the "Dataset_Testing_Synthetic" folder are the synthetic rain dataset for algorithm testing.
    - Files with names xxx_GT are the scene ground truth.
    - Files with names xxx_Rain are the synthesized rainy scenes with Adobe Affter Effect.
