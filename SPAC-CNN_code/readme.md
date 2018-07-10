@@ -10,17 +10,16 @@ __Input__: 4D uint8 array of size [h x w x 3 x n].
 __Output__: 4D uint8 array of size [h x w x 3 x n], note the first and last 
 	 two frames are empty.  
   
-Please ensure that _MatConvNet_ is properly installed before running the code.  
-For the .mex funtions, we regret that only precompiled files for 64 bit Mac and Windows are provided.  
+Please ensure that _MatConvNet_ is properly installed before running the code.
+The installer for MatConvNet-1.0-beta25.tar has been included under folder "reqired\". Please resort to "http://www.vlfeat.org/matconvnet/" for detailed instructions on installation.
+For the .mex funtions, we regret that only precompiled files for 64 bit Windows are provided.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 __CONTACT:__  
 Chen Jie (chen.jie@ntu.edu.sg)
 
 __TERMS OF USE:__   
-Any scientific work that makes use of our code should appropriately
-mention this in the text and cite our CVPR 2018 paper. 
-For commercial use and a faster executable version of our code (10Hz+), please contact Dr. Soh Ling Min (sohlm@stengg.com). 
+Any scientific work that makes use of our code should appropriately cite our CVPR 2018 paper. For commercial use and a faster derain algorithm (10Hz+), please contact Dr. Soh Ling Min (sohlm@stengg.com).
 
 __PAPER TO CITE:__  
 Jie Chen, Cheen-Hau Tan, Junhui Hou, Lap-Pui Chau, and He Li. "Robust Video Content Alignment and Compensation for Rain Removal in a CNN Framework." In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
