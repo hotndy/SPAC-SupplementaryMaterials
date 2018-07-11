@@ -2,7 +2,7 @@
 
 We present a video synthetic rain dataset with _Adobe After Effect_. \[[download](https://github.com/hotndy/SPAC-SupplementaryMaterials)\] \[[paper](https://arxiv.org/abs/1803.10433)\]
 
-The data category usage/rain type (i.e., training/testing data, and whether the rain is synthetic/real rain), the camera motion for each data entry (i.e., slow/fast moving cameras), as well as the labeling details for each data is shown in the table below.
+The data category usage (i.e., training/testing dataset), the rain types (i.e., whether the rain is synthetic/real rain), the camera motion for each data entry (i.e., slow/fast moving cameras), as well as the labeling details for each data is shown in the table below.
 <p align="center">
 <img src="https://hotndy.github.io/projects/SPAC/rainDatasetTable.png" width="500px"/>
 </p>
