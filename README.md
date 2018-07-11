@@ -13,7 +13,7 @@ We show the thumbnails for each data entry below.
 <img src="https://hotndy.github.io/projects/SPAC/rainDatasetThumb.png" width="500px"/>
 </p>
 
-Please cite both Adobe After Effect [2], and our paper [1] when you use this dataset, or compare with our results.
+Please cite both _Adobe After Effect_ [2], and our paper [1] when you use this dataset, or compare with our results.
 
 
 Organization structure details of the dataset:
