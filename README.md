@@ -1,6 +1,6 @@
 # Synthetic Rain Dataset with Adobe After Effect
 
-We present a video synthetic rain dataset with _Adobe After Effect_. \[[download](https://github.com/hotndy/SPAC-SupplementaryMaterials)\] \[[paper](https://arxiv.org/abs/1803.10433)\]
+We present a video rain dataset that contains both sythetic rain (by _Adobe After Effect_) and real rain video clips for algorithm training and testing. \[[download](https://github.com/hotndy/SPAC-SupplementaryMaterials)\] \[[paper](https://arxiv.org/abs/1803.10433)\]
 
 The data category usage (i.e., training/testing dataset), the rain types (i.e., whether the rain is synthetic/real rain), the camera motion for each data entry (i.e., slow/fast moving cameras), as well as the labeling details for each data is shown in the table below.
 <p align="center">
