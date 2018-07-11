@@ -1,4 +1,4 @@
-Synthetic rain dataset for algorithm traing.
+Synthetic rain dataset for model traing.
 
 Files with names xxx_GT are the scene ground truth.
 
