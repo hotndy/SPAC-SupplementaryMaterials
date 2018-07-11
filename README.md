@@ -1,14 +1,13 @@
 # Synthetic Rain Dataset with Adobe After Effect
 
-We present a video synthetic rain dataset. \[[download](https://github.com/hotndy/SPAC-SupplementaryMaterials)\] \[[paper](https://arxiv.org/abs/1803.10433)\]
+We present a video synthetic rain dataset with _Adobe After Effect_. \[[download](https://github.com/hotndy/SPAC-SupplementaryMaterials)\] \[[paper](https://arxiv.org/abs/1803.10433)\]
 
-The data category (i.e., training/testing data, and whether the rain is synthetic/real rain), the camera motion (i.e., slow/fast
-moving cameras), as well as the labeling details for each data is shown in the table below.
+The data category (i.e., training/testing data, and whether the rain is synthetic/real rain), the camera motion for each data entry (i.e., slow/fast moving cameras), as well as the labeling details for each data is shown in the table below.
 <p align="center">
 <img src="https://hotndy.github.io/projects/SPAC/rainDatasetTable.png" width="500px"/>
 </p>
 
-We also show the thumbnails for each data entry below.
+We show the thumbnails for each data entry below.
 
 <p align="center">
 <img src="https://hotndy.github.io/projects/SPAC/rainDatasetThumb.png" width="500px"/>
@@ -17,7 +16,7 @@ We also show the thumbnails for each data entry below.
 Please cite both Adobe After Effect [2], and our paper [1] when you use this dataset, or compare with our results.
 
 
-The details for each folders in the repository:
+Organization structure details of the dataset:
   
 0. Under the folder "SPAC-CNN_code" folder are the executable code for rain removal.     
   
